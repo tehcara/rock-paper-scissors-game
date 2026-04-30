@@ -1,16 +1,18 @@
-# futurelearn-rock-paper-scissors
-Course project for Programming Applications with Python GUI at Futurelearn.
+# Rock Paper Scissors Game
 
-This was created as my course project for Week 2.6 Offline Activity Create your GUI. 
-It is to meet the objective: "Use all of your new-found knowledge about GUI programming 
-to create something simple, yet functional. 
-Try and incorporate all the elements that you learned up until now."
+Course project for **Programming Applications with Python GUI** at Futurelearn (2022), refreshed in 2024 to include advanced logic and PEP8 standards. It uses elements from multiple lessons; Create a Window (Week 1.7), Buttons (Week 1.8), Labels (Week 1.9), Images (Week 2.2), and Radio Buttons (Week 2.5).
 
-I have used elements from Week 1.7 Create a Window, Week 1.8 Buttons, Week 1.9 Labels, Week 2.2 Images, and Week 2.5 Radio Buttons.
+## Project Overview
+This application is a simple but functional graphical implementation of the classic Rock Paper Scissors game. It focuses on the transition from command-line scripting to **Event-Driven Programming**, providing a user-friendly interface with real-time score tracking.
 
-I have not used dropdown menus or textfield.
+## Technical Highlights
+* **Graphical User Interface (GUI):** Built using the `Tkinter` library, featuring a structured layout with frames, labels, and interactive radio buttons.
+* **Image Processing:** Utilises the `Pillow` (PIL) library for BICUBIC image resizing and rendering within the GUI environment.
+* **State Management:** Implements global counters to track and display session statistics (games played versus games won).
+* **Input Validation:** Uses `IntVar` and `Radiobutton` widgets to ensure restricted user input, and provide system stability.
 
-The program is a simple version of Rock Paper Scissors. 
-It compares the user-selected value (from a selected radio button) 
-to a randomly generated integer to determine the game result. 
-The game result is displayed in a message box window.
+## Tech Stack
+* **Python** (Core Logic)
+* **Tkinter** (GUI Framework)
+* **Pillow / PIL** (Image Handling)
+* **Random** (Game Logic & Computer Moves)
